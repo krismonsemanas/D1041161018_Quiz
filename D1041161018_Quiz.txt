@@ -132,15 +132,13 @@ class _MyHomePageState extends State<MyHomePage> {
   String _nama='';
   TextEditingController controller = new TextEditingController();
  
-  @override
+  e@override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.title),
+        title: Text(widgt.title),
       ),
       body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
         child: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
@@ -283,3 +281,11 @@ class Home extends StatelessWidget  {
 MyHomePage({Key key, this.title}) : super(key: key);
 -----------------------------
 Home({this.getNama});
+6. Polimorfisme 
+7. Inheritance 
+-----------------------------
+class MyHomePage extends StatefulWidget {}
+-----------------------------
+class _MyHomePageState extends State<MyHomePage> {}
+-----------------------------
+class Home extends StatelessWidget{}
